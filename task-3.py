@@ -8,8 +8,8 @@ def normalize_phone(num):
   elif n.startswith('380'):
     return '+' + n
   else:
-    n = n.lstrip('+')
-    return '+38'+ n
+    # n = n.lstrip('+')
+    return '+'+ n
 
 raw_numbers = [
     "067\\t123 4567",
